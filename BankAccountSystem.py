@@ -1,3 +1,11 @@
+"""Banking System
+Create a BankAccount class that:
+
+Allows deposits and withdrawals.
+Prevents withdrawals if the balance is insufficient.
+Displays the account balance.
+"""
+
 class BankAccount:
     def __init__(self,account_holder,balance=0):
         self.account_holder = account_holder
